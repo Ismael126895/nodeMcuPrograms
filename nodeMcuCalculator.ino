@@ -66,4 +66,5 @@ void loop() {
   lcd.print(" = ");
   lcd.print(answer);
   delay(10000);
+  lcd.clear();
 }
